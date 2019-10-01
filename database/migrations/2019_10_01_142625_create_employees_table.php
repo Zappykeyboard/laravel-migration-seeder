@@ -20,7 +20,7 @@ class CreateEmployeesTable extends Migration
             $table->char('lastname');
             $table->date('birthDay');
             $table->char('jobTitle');
-            $table->decimal('salary',2,2);
+            $table->integer('salary');
         });
     }
 
